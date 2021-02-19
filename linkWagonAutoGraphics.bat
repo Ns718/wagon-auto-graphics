@@ -1,0 +1,1 @@
+mklink /j "mods/wagonAutoGraphics_0.18.0" "D:\projects\factorio\wagonAutoGraphics\source"

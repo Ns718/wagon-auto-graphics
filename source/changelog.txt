@@ -1,0 +1,17 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.18.2
+  Info:
+    - updated changelog format
+
+---------------------------------------------------------------------------------------------------
+Version: 0.18.1
+  Info:
+    - updated thumbnail, updated changelog format
+
+---------------------------------------------------------------------------------------------------
+Version: 0.18.0
+  Info:
+    - support for iron-ore, copper-ore, stone, wood, coal, steel-plate, iron-plate, copper-plate, stone-brick
+    - wagon changes to mixed graphics for 2 items, 4 items in same wagon
+    - fluid support for crude-oil, heavy-oil, light-oil, petroleum-gas, water, sulfuric-acid
+    - initial release

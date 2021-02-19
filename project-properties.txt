@@ -1,0 +1,2 @@
+releaseFolder = release
+sourceFolder = source

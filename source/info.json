@@ -1,0 +1,9 @@
+{
+	"name": "wagonAutoGraphics",
+	"version": "0.18.5",
+	"title": "Wagon Auto Graphics",
+	"author": "Loot-1",
+	"description": "Cargo-wagons automatically adapt graphics according to content, graphics by LooT",
+	"dependencies": ["base >= 0.18.0"],
+	"factorio_version": "0.18"
+}
