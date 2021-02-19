@@ -44,14 +44,12 @@ public class BuildRelease {
 				System.out.println("Done.");
 			}
 			else {
-				System.out.println("ERROR: File " + zipFile + " exists already");
+				System.out.println("ERROR: File " + zipFile + "exists already");
 			}
 		}
 		finally {
 			this.config.save();
-		}
-	}
-	private String getInformation(String propertyName, String srcFolder) throws IOException {
+		}private String getInformation(String propertyName, String srcFolder) throws IOException {
 		List<String> lines = Files.readAllLines(Paths.get(srcFolder + "/info.json"));
 		String version = null;
 		for (String line : lines) {
@@ -61,6 +59,7 @@ public class BuildRelease {
 			}
 		}
 		return version;
+	}
 	}
 	public static class Properties extends ConfigSettingsBase {
 
